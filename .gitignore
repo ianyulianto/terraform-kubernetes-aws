@@ -1,5 +1,7 @@
+# Generated from Terraform
 *.tfstate*
 
-aws-credential.tf
-kubernetes-variable.tf
+# Private file
+_*
+_*
 
