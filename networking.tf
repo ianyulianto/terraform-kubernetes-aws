@@ -1,6 +1,6 @@
 # VPC untuk Kubernetes
 resource "aws_vpc" "kube-vpc" {
-	cidr_block 				= "172.20.0.0/16"
+	cidr_block 				= "${var.vpc.cidr_block}"
 	instance_tenancy 		= "default"
 	enable_dns_hostnames 	= true
 
