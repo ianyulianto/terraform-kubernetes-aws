@@ -1,0 +1,5 @@
+*.tfstate*
+
+aws-credential.tf
+kubernetes-variable.tf
+
